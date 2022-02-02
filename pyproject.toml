@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wordle"
+version = "0.1.0"
+description = ""
+authors = ["Matej Kerekrety <matej.kerekrety@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.1.0"
+bandit = "^1.7.2"
+ipython = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
