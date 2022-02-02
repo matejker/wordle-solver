@@ -10,14 +10,12 @@ A command line Python [Wordle](https://www.powerlanguage.co.uk/wordle/) solver b
 Try: 'arose' with rank 0.5769
 Round 1: (a),r,o,[s],[e]
 Try: 'trona' with rank 1.1154
-Round 2: [t],r,o,[m],(a)
+Round 2: [t],r,o,[n],(a)
 Try: 'droil' with rank 1.2692
-Round 3: [d],r,o,[i],[l]
-Try: 'groan' with rank 1.4615
-Round 4: [g],r,o,a,[n]
+Round 3: [d],r,o,[i],[l] 
 Try: 'croak' with rank 1.6923
-Round 5: c,r,o,a,k            
-🎉 🎉 🎉  Solved in 5 steps!
+Round 4: c,r,o,a,k 
+🎉 🎉 🎉  Solved in 4 steps!
 ```
 ### Syntax
  - if the letter isn't in the word, use `[l]`
